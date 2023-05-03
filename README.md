@@ -1,5 +1,7 @@
 # TypeScript App
-![62e78985e67b53613e309323_Sealights-logo-white-1](https://user-images.githubusercontent.com/73169815/235975461-9ff4ecf5-8519-4724-a2aa-3e45275d905d.png)
+
+![SeaLights_Logo_Black__2_Logo](https://user-images.githubusercontent.com/73169815/236030228-315c49b4-d196-462a-8912-954982925a55.jpg)
+
 
 In this TypeScript project, classes, inheritance, and modules are demonstrated. This project consists of three classes - Person, Employee, and Logger - as well as an app.ts file that uses these classes to create an HTTP server.
 
