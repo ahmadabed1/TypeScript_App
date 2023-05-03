@@ -98,7 +98,6 @@ class is used to log messages to the console. It has the following properties:
 **level:** A string representing the log level.
 **levels:** An object that maps log levels to their corresponding numbers.
 
-<img width="621" alt="צילום מסך 2023-05-03 003122" src="https://user-images.githubusercontent.com/73169815/235988942-43fc5993-0db6-4ae8-8d8a-5b5abb8b3090.png">
 
 ##### It also has the following methods:
 
@@ -114,6 +113,7 @@ class is used to log messages to the console. It has the following properties:
 
 **error(message: string):** A method that logs an error message to the console.
 
+<img width="474" alt="צילום מסך 2023-05-03 215744" src="https://user-images.githubusercontent.com/73169815/236016917-311808b6-6540-4464-a8a7-55b1455730c3.png">
 
 ---
 
@@ -150,7 +150,7 @@ In general, in the assignment we were required to work mainly on the server side
 
 **Another note:** in the bonus part of the assignment, we were asked to identify a person by ID, but a person-type object did not have a unique identifier like an employee-type object, so I used the person's name, but it is important to note that the name is not a good use because it is not a primary key.
 
-## Testing 
+## Tests 
 
 
 
@@ -163,6 +163,37 @@ https://www.postman.com/downloads/
 
 To start the test, use the lockalhost link to Postman: http://localhost:3000/
 
-`http://localhost:3000/persons`
+Some examples follow :
+
+Get `http://localhost:3000/persons`
+
+<img width="955" alt="צילום מסך 2023-05-02 202112" src="https://user-images.githubusercontent.com/73169815/236011707-472da2df-ccb3-4418-8d30-dfaff68b25ce.png">
+
+Get `http://localhost:3000/persons/Ahmad` Person not found .
+
+<img width="958" alt="צילום מסך 2023-05-02 202030" src="https://user-images.githubusercontent.com/73169815/236011975-2cd219e1-82e8-455f-b871-8816c0dc30b5.png">
+
+Post `http://localhost:3000/persons/Ahmad`
+
+To make a post request you must send the data in the body
+
+<img width="958" alt="צילום מסך 2023-05-03 002420" src="https://user-images.githubusercontent.com/73169815/236012542-89ea89cf-72fb-4e20-877e-061a68ad448e.png">
+
+Delete `http://localhost:3000/persons/dodo` Person not found 
+
+<img width="567" alt="צילום מסך 2023-05-03 002534" src="https://user-images.githubusercontent.com/73169815/236013391-e2d1c78a-0664-446a-a996-e7a5ca7405c5.png">
+
+
+Get `http://localhost:3000/employees`
+
+<img width="957" alt="צילום מסך 2023-05-03 214851" src="https://user-images.githubusercontent.com/73169815/236015025-ac1e6d14-f64d-414e-b73f-5326a4102e5f.png">
+
+
+**Log file:**
+
+<img width="322" alt="צילום מסך 2023-05-03 003122" src="https://user-images.githubusercontent.com/73169815/236013550-543eb298-5c69-4d23-b636-34ebe4f99285.png">
+
+
+
 
 
